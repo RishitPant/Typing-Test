@@ -54,22 +54,22 @@ def game_over_screen():
     WINDOW.blit(timer, (540, 300))
 
     if seconds >= 25:
-        remark = base_font.render("Weak fingers, she not satisfied at all you bitch!", True, white)
+        remark = base_font.render("", True, white)
         WINDOW.blit(remark, (300, 400))
     elif seconds >= 20:
-        remark = base_font.render("Not yet! This is nothing to satisfy her!", True, white)
+        remark = base_font.render("", True, white)
         WINDOW.blit(remark, (300, 400))
     elif seconds >= 16:
-        remark = base_font.render("Still no strong fingers that can satisfy her you little ass.", True, white)
+        remark = base_font.render("", True, white)
         WINDOW.blit(remark, (300, 400))
     elif seconds >= 13:
-        remark = base_font.render("Hmm, fingers getting little strong for her you little bitch.", True, white)
+        remark = base_font.render("", True, white)
         WINDOW.blit(remark, (300, 400))
     elif seconds >= 10:
-        remark = base_font.render("Hmm, she will cum with these strong fingers. Fuck yeah! ", True, white)
+        remark = base_font.render(" ", True, white)
         WINDOW.blit(remark, (300, 400))
     elif seconds < 10:
-        remark = base_font.render("Impossible. So go and do without cheating you shitty bitch!", True, white)
+        remark = base_font.render("", True, white)
         WINDOW.blit(remark, (300, 400))
 
     pygame.draw.rect(WINDOW, yellow, restart_rect)
